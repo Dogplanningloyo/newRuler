@@ -5,6 +5,7 @@
 
 .pay>img{
     width: 100%;
+    position: relative;
 }
 .back{
     border: solid #424242 1px;
