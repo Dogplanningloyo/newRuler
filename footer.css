@@ -1,10 +1,10 @@
 .copy{
     position: relative;
-    background-color: #424242;
+    background-color: #9E9E9E;
     height: auto;
     min-height: 100%;
     padding-bottom:1.5em; 
-    border: solid #424242 1px;
+    border: solid #9E9E9E 1px;
     border-radius: 15px;
     z-index: 0;
 }
