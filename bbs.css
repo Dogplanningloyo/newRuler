@@ -8,12 +8,12 @@ list-style: none;
 }
 
 .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
 }
 
 div.background>img {
@@ -103,4 +103,9 @@ div>ul {
     position: absolute;
     bottom: 2%;
     left: 2%;
+}
+.Wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
 }

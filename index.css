@@ -5,12 +5,8 @@
 }
 
 #background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+    position: relative;
+width: 100%;
 }
 
 div#background>img {
@@ -18,12 +14,20 @@ div#background>img {
     width: 100%;
     border: 0;
 }
-a>img{
-    width: 12em;
-    height: 3em;
+a{
+    text-decoration: none;
+    color: #fff;
 }
- a{
+.welcome{
+    width: 6em;
+    height: 2em;
+    line-height: 2em;
+    font-size: 2em;
+    background-color: #4e32c9bd;
     position: absolute;
     bottom: 1em;
-    left:25%;
+    left: 50%;
+    margin-left: -3em;
+    border-radius: 30px;
+    text-align: center;
 }
